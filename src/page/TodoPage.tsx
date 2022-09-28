@@ -1,6 +1,5 @@
-import React, { ChangeEvent, FC, useState } from "react";
+import { FC } from "react";
 import { Box, Button, Input, Typography } from "@mui/material";
-import { ITodoItem } from "../InterfacesModals";
 import { v4 as uuidv4 } from "uuid";
 import { styles } from "../styleMUI";
 import { TodoList } from "./TodoList";

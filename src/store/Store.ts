@@ -1,6 +1,5 @@
 import { ITodoItem } from "../InterfacesModals";
 import { makeAutoObservable } from "mobx";
-import { useContext, createContext, useEffect } from "react";
 
 class TodoStore {
   todo: string = "";

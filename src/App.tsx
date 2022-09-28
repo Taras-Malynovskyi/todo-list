@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC, useState } from "react";
+import React, { FC } from "react";
 
 import { TodoPage } from "./page/TodoPage";
 
