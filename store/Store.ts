@@ -88,7 +88,7 @@ class TodoStore {
     this.countDoneAndAllTodo();
   }
 
-  doSelected() {
+  setDoneSelected() {
     this.todoList = this.todoList.map((todo) =>
       todo.selected === true
         ? { ...todo, completed: true, selected: false }
@@ -97,7 +97,7 @@ class TodoStore {
     this.countDoneAndAllTodo();
   }
 
-  undoSelected() {
+  setUndoSelected() {
     this.todoList = this.todoList.map((todo) =>
       todo.selected === true
         ? { ...todo, completed: false, selected: false }

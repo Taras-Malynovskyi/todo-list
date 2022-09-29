@@ -95,13 +95,13 @@ export const TodoPage: FC = observer(() => {
         <Button
           variant="outlined"
           style={styles.Button}
-          onClick={() => todo.doSelected()}>
+          onClick={() => todo.setDoneSelected()}>
           Done Selected
         </Button>
         <Button
           variant="outlined"
           style={styles.Button}
-          onClick={() => todo.undoSelected()}>
+          onClick={() => todo.setUndoSelected()}>
           UnDo Selected
         </Button>
       </Box>
