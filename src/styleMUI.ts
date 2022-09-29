@@ -1,10 +1,4 @@
 export const styles: any = {
-  Paper: {
-    padding: 20,
-    margin: "auto",
-    textAlign: "center",
-    width: 500,
-  },
   Button: {
     margin: "10px",
     width: "150px",
